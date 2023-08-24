@@ -1,0 +1,76 @@
+.buyaccesslower{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#buy{
+        margin-bottom: 20px;
+    height: 308px;
+    width: 294px;
+    min-width: 294px;
+    background-image: url("./Background_.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#access{
+    margin-bottom: 20px;
+    height: 308px;
+    width: 294px;
+    min-width: 294px;
+    background-image: url("./Background_bc.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#lower{
+    margin-bottom: 20px;
+    height: 308px;
+    width: 294px;
+    min-width: 294px;
+    background-image: url("./Background_.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    max-width: 180px;
+    text-align: left;
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1000px) {
+    .buyaccesslower{
+        flex-direction: column;
+    }
+
+    .text{
+        font-size: 26px;;
+    }
+}
+
+@media (max-width: 750px) {
+    .text {
+        font-size: 20px;
+        ;
+    }
+}
