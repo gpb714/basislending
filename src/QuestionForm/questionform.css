@@ -17,7 +17,7 @@
 }
 
 form{
-    width: 100%;
+    width: 80%;
 }
 
 .question-text{
@@ -72,8 +72,41 @@ input{
     height: 25px;
 }
 
+.form-footer{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.form-footer span {
+    margin-right: auto;
+    color: rgba(188, 188, 188, 1);
+}
+
+.send-text{
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(110, 174, 67, 1);
+    padding-right: 10px;
+}
+
 textarea{
     height:75px
+}
+
+.form-footer > button {
+    border-radius: 50%;
+}
+
+.Union_1{
+    height: 20px;
+    width: 20px;
+    color: white;
+    fill: white;
 }
 
 @media (max-width: 1000px) {

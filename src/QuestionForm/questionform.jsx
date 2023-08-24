@@ -53,7 +53,7 @@ export function QuestionForm() {
                     </FormControl>
                     <FormControl marginTop="16px" isRequired isInvalid={isEmailError}>
                         <FormLabel>Email address</FormLabel>
-                        <Input placeholder="Enter the email you want me to respond to." type='email' name="email" value={email} onChange={handleEmailChange} />
+                        <Input type='email' name="email" value={email} onChange={handleEmailChange} />
                         {isEmailError ? (<FormErrorMessage>Valid email is required.</FormErrorMessage>): null}
                     </FormControl>
                     <FormControl>
@@ -62,20 +62,27 @@ export function QuestionForm() {
                     </FormControl>
                     <FormControl isRequired isInvalid={isQuestionError}>
                         <FormLabel marginTop="16px">Question</FormLabel>
-                        <Textarea placeholder="Provide some information so I can start to help." value={question} name="message" onChange={handleQuestionChange} />
+                        <Textarea value={question} name="message" onChange={handleQuestionChange} />
                         {isQuestionError ? (<FormErrorMessage>Questions are required.</FormErrorMessage>) : null}
                     </FormControl>
 
-                    <Button
-                        mt={4}
-                        colorScheme='teal'
-                        isLoading={isSubmitting}
-                        disabled={isQuestionError || isEmailError || emailPristine || questionPristine}
-                        onClick={submitForm}
-                        type='submit'
-                    >
-                        Submit
-                    </Button>
+                    <div className="form-footer">
+                        <span>*don't worry, we will not sell your information and will never spam you.</span> <br />
+                        <div className="send-text">Send</div>
+                        <Button
+                            mt={4}
+                            colorScheme='teal'
+                            isLoading={isSubmitting}
+                            disabled={isQuestionError || isEmailError || emailPristine || questionPristine}
+                            onClick={submitForm}
+                            type='submit'
+                        >
+                            <svg class="Union_1" viewBox="-1338.601 -1831 21.001 21">
+                                <path id="Union_1" d="M -1324.600219726562 -1813.5 L -1324.600219726562 -1819.05029296875 L -1332.575073242188 -1811.075439453125 C -1333.942260742188 -1809.708374023438 -1336.158081054688 -1809.708374023438 -1337.525146484375 -1811.075439453125 C -1338.892211914062 -1812.442504882812 -1338.892211914062 -1814.658325195312 -1337.525146484375 -1816.025390625 L -1329.55029296875 -1824.000366210938 L -1335.1005859375 -1824.000366210938 C -1337.03369140625 -1824.000366210938 -1338.6005859375 -1825.567260742188 -1338.6005859375 -1827.50048828125 C -1338.6005859375 -1829.432739257812 -1337.03369140625 -1830.999633789062 -1335.1005859375 -1830.999633789062 L -1321.10009765625 -1830.999633789062 C -1319.167846679688 -1830.999633789062 -1317.599975585938 -1829.432739257812 -1317.599975585938 -1827.50048828125 L -1317.599975585938 -1813.5 C -1317.599975585938 -1811.56689453125 -1319.167846679688 -1810 -1321.10009765625 -1810 C -1323.033325195312 -1810 -1324.600219726562 -1811.56689453125 -1324.600219726562 -1813.5 Z">
+                                </path>
+                            </svg>
+                        </Button>
+                    </div>
                 </form>
             </div>
 	    </div>
