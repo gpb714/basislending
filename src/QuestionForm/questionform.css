@@ -1,0 +1,91 @@
+.questionform{
+    padding-top: 30px;;
+    background-image: url("./Gradient.png");
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.centered-form-container{
+    width:75%;
+    padding: 40px;
+    background-color: rgb(33, 33, 33, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form{
+    width: 100%;
+}
+
+.question-text{
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.chakra-form__label, .chakra-form__error-message{
+    text-align: left;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(110, 174, 67, 1);
+}
+
+.chakra-form__error-message{
+    color: red;
+}
+
+.chakra-textarea{
+    margin-top:10px;
+}
+
+input, textarea{
+    border-radius: 5px;;
+    background-color: transparent;
+    border-color: rgba(110, 174, 67, 1);
+    border-style: solid;
+    box-shadow: none;
+    border-width: 2px;
+    width: 100%;
+    font-family: Montserrat-Medium;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    border-image: none;
+    font-size: 18px;
+}
+
+input[aria-invalid="true"], textarea[aria-invalid="true"]{
+        border-color: red;
+        box-shadow: red;
+}
+
+@media (max-width: 1000px) {
+    .question-text {
+        font-size: 22px;
+    }
+
+    .chakra-form__label, .chakra-form__error-message{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 750px) {
+    .question-text {
+        font-size: 20px;
+    }
+
+    .chakra-form__label, .chakra-form__error-message {
+        font-size: 14px;
+    }
+}

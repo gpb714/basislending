@@ -10,19 +10,19 @@ export function BuyAccessLower() {
         <div id="BuyAccessLower" className="buyaccesslower">
             <div id="buy">
                 <div>
-                    <div className="image"><img src={house}/></div>
+                    <div className="image"><img src={house} alt="buy-container"/></div>
                     <div className="text"><span>Buy a New Home</span></div>
                 </div>
             </div>
             <div id="access">
                 <div>
-                    <div className="image"><img src={equity}/></div>
+                    <div className="image"><img src={equity} alt="equity-container"/></div>
                     <div className="text"><span>Access Your Equity</span></div>
                 </div>
 		    </div>
             <div id="lower">
                 <div>                
-                    <div className="image"><img src={money}/></div>
+                    <div className="image"><img src={money} alt="money-container"/></div>
                     <div className="text"><span>Lower Your Payments</span></div>
                 </div>
 		    </div>
