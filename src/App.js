@@ -4,6 +4,7 @@ import { QuestionForm } from './QuestionForm/questionform';
 import { About } from './about/About';
 import { BuyAccessLower } from './buyaccesslower/buyaccesslower';
 import { Header } from './header/header';
+import { Reviews } from './reviews/reviews';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <BuyAccessLower />
       <QuestionForm />
+      <Reviews />
     </>
   );
 }
