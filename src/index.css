@@ -25,4 +25,11 @@ button{
 
 button:hover {
   box-shadow: white;
+  background-color: #179848;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: white;
+  background-color: #0c6c33;
 }
