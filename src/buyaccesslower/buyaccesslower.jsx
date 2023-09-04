@@ -6,8 +6,12 @@ import house from './house.png';
 import money from './money-bag.png';
 
 export function BuyAccessLower() {
+    function navigateToApp(){
+        window.location.href='https://basislending.my1003app.com/242392/register';
+    }
+
     return (
-        <div id="BuyAccessLower" className="buyaccesslower">
+        <div id="BuyAccessLower" className="buyaccesslower" onClick={navigateToApp}>
             <div id="buy">
                 <div>
                     <div className="image"><img src={house} alt="buy-container"/></div>
