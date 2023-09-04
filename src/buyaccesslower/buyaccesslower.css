@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    cursor: pointer;
 }
 
 #buy{
@@ -18,6 +17,7 @@
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #access{
@@ -31,6 +31,7 @@
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 #lower{
@@ -44,6 +45,7 @@
     justify-content: center;
     margin-left: 10px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .image{

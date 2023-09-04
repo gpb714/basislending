@@ -11,20 +11,20 @@ export function BuyAccessLower() {
     }
 
     return (
-        <div id="BuyAccessLower" className="buyaccesslower" onClick={navigateToApp}>
-            <div id="buy">
+        <div id="BuyAccessLower" className="buyaccesslower">
+            <div id="buy" onClick={navigateToApp}>
                 <div>
                     <div className="image"><img src={house} alt="buy-container"/></div>
                     <div className="text"><span>Buy a New Home</span></div>
                 </div>
             </div>
-            <div id="access">
+            <div id="access" onClick={navigateToApp}>
                 <div>
                     <div className="image"><img src={equity} alt="equity-container"/></div>
                     <div className="text"><span>Access Your Equity</span></div>
                 </div>
 		    </div>
-            <div id="lower">
+            <div id="lower" onClick={navigateToApp}>
                 <div>                
                     <div className="image"><img src={money} alt="money-container"/></div>
                     <div className="text"><span>Lower Your Payments</span></div>
