@@ -1,0 +1,26 @@
+.ready-section{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ready-text{
+    white-space: nowrap;
+    text-align: center;
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 66px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
+}
+
+.ready-button{
+    width: 225px;
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+}
