@@ -24,3 +24,13 @@
     font-weight: normal;
     font-size: 40px;
 }
+
+@media (max-width: 1000px) {
+    .ready-text {
+        font-size: 40px;
+    }
+
+    .ready-button{
+        font-size: 24px
+    }
+}

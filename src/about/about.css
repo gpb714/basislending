@@ -4,6 +4,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-left: 20px;
 }
 
 #top-text{
@@ -59,23 +60,5 @@
 
     #white-text{
         font-size: 22px;
-    }
-}
-
-@media (max-width: 750px) {
-    #top-text {
-        font-size: 22px;
-    }
-
-    #bottom-text {
-        font-size: 20px;
-    }
-
-    #green-text {
-        font-size: 20px;
-    }
-
-    #white-text {
-        font-size: 20px;
     }
 }

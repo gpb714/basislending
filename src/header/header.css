@@ -18,3 +18,11 @@
     padding-bottom: 10px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.161);
 }
+
+button{
+    font-family: Montserrat-SemiBold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22.91707992553711px;
+    color: rgba(255, 255, 255, 1);
+}

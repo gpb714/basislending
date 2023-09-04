@@ -15,7 +15,7 @@ body {
 
 .charts-background{
     background-image: url("./Candle_k.png");
-    height: 700px;
+    height: 500px;
     background-size: cover;
     width: 100%;
 }
