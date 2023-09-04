@@ -6,8 +6,18 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(26, 26, 26, 1);
-  background-image: url("./Gradient.png");
-  background-size: cover;
+}
+
+.gradient-background{
+    background-image: url("./Gradient.png");
+    background-size: cover;
+}
+
+.charts-background{
+    background-image: url("./Candle_k.png");
+    height: 700px;
+    background-size: cover;
+    width: 100%;
 }
 
 code {

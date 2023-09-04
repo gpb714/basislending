@@ -11,9 +11,12 @@ function App() {
     <>    
       <Header />
       <About />
-      <BuyAccessLower />
-      <QuestionForm />
-      <Reviews />
+      <div className="gradient-background">
+        <BuyAccessLower />
+        <QuestionForm />
+        <div className="charts-background"></div>
+        <Reviews />
+      </div>
     </>
   );
 }
