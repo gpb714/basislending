@@ -5,6 +5,7 @@ import { About } from './about/About';
 import { BuyAccessLower } from './buyaccesslower/buyaccesslower';
 import { Header } from './header/header';
 import { Reviews } from './reviews/reviews';
+import { Team } from './team/team';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
         <BuyAccessLower />
         <QuestionForm />
         <div className="charts-background"></div>
-        <Reviews />
       </div>
+        <Reviews />
+        <Team />
     </>
   );
 }
