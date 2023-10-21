@@ -15,7 +15,10 @@ export function Footer() {
                     <span>info@basislending.com</span>
                 </div>
                 <div className="footer-text">
-                    <span>2023 ©BasisLending. All rights reserved.</span>
+                    <span>2023 ©BasisLending</span>
+                </div>
+                <div className="footer-text">
+                    <span>All rights reserved.</span>
                 </div>
                 <hr className='footer-hr'/>
                 <div className="footer-text">
