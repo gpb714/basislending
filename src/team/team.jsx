@@ -1,7 +1,7 @@
 import React from 'react';
 
-import kyren from './Kyrenpoe.jpg';
-import tom from './TomKarmo.JPG';
+import kyren from './Kyrenpoe1.jpg';
+import tom from './TomKarmo1.JPG';
 
 import './team.css';
 export function Team() {

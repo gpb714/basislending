@@ -1,4 +1,5 @@
-import { Button, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from "@chakra-ui/react";
+import { Button, FormControl, FormErrorMessage, FormLabel, Input, Textarea, useToast } from "@chakra-ui/react";
+import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
 
 import './questionform.css';
@@ -11,6 +12,7 @@ export function QuestionForm() {
     const [emailPristine, setEmailPristine] = useState(true);
     const [questionPristine, setQuestionPristine] = useState(true);
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const toast = useToast();
 
     const form = useRef();
     const handleEmailChange = (e) => {
@@ -37,7 +39,28 @@ export function QuestionForm() {
         e.preventDefault();
         setIsSubmitting(true);
         // send email
-        setIsSubmitting(false);
+        emailjs.sendForm('service_hs5kobd', 'template_qjsz1kg', form.current, '1UyyYt9zfJcO2RJyX')
+            .then((response) => {
+                toast({
+                    title: 'Email sent succesfully.',
+                    description: "Please wait for a reply back soon.",
+                    status: 'success',
+                    duration: 9000,
+                    isClosable: true,
+                    position: "top"
+                    });
+                setIsSubmitting(false);
+            }, (error) => {
+                toast({
+                    title: 'Email failed to send.',
+                    description: "Please try again or contact me @ gbarragantech@gmail.com.",
+                    status: 'error',
+                    duration: 9000,
+                    isClosable: true,
+                    position: "top"
+                });
+                setIsSubmitting(false);
+        });
     }
 
     return (
