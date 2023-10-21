@@ -1,6 +1,8 @@
-import { Button, FormControl, FormErrorMessage, FormLabel, Input, Textarea, useToast } from "@chakra-ui/react";
+import { Button, FormControl, FormErrorMessage, FormLabel, Input, Textarea } from "@chakra-ui/react";
 import emailjs from '@emailjs/browser';
 import React, { useRef, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 import './questionform.css';
 
@@ -12,7 +14,6 @@ export function QuestionForm() {
     const [emailPristine, setEmailPristine] = useState(true);
     const [questionPristine, setQuestionPristine] = useState(true);
     const [isSubmitting, setIsSubmitting] = useState(false);
-    const toast = useToast();
 
     const form = useRef();
     const handleEmailChange = (e) => {
@@ -37,27 +38,44 @@ export function QuestionForm() {
 
     function submitForm(e){
         e.preventDefault();
+        if(isQuestionError || isEmailError || emailPristine || questionPristine){
+            toast.warn('Please fill out entire form.', {
+                position: "top-center",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+            });
+            return;
+        }
         setIsSubmitting(true);
         // send email
         emailjs.sendForm('service_hs5kobd', 'template_qjsz1kg', form.current, '1UyyYt9zfJcO2RJyX')
             .then((response) => {
-                toast({
-                    title: 'Email sent succesfully.',
-                    description: "Please wait for a reply back soon.",
-                    status: 'success',
-                    duration: 9000,
-                    isClosable: true,
-                    position: "top"
-                    });
+                toast.success('Email Sent Successfully', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
+                });
                 setIsSubmitting(false);
             }, (error) => {
-                toast({
-                    title: 'Email failed to send.',
-                    description: "Please try again or contact me @ gbarragantech@gmail.com.",
-                    status: 'error',
-                    duration: 9000,
-                    isClosable: true,
-                    position: "top"
+                toast.error('Failed to send', {
+                    position: "top-center",
+                    autoClose: 5000,
+                    hideProgressBar: false,
+                    closeOnClick: true,
+                    pauseOnHover: true,
+                    draggable: true,
+                    progress: undefined,
+                    theme: "dark",
                 });
                 setIsSubmitting(false);
         });
@@ -106,6 +124,18 @@ export function QuestionForm() {
                             </svg>
                         </Button>
                     </div>
+                    <ToastContainer
+                        position="top-center"
+                        autoClose={5000}
+                        hideProgressBar={false}
+                        newestOnTop={false}
+                        closeOnClick
+                        rtl={false}
+                        pauseOnFocusLoss
+                        draggable
+                        pauseOnHover
+                        theme="dark"
+                    />
                 </form>
             </div>
 	    </div>
