@@ -13,14 +13,6 @@ export function About() {
                     <span>Let our expertise help you make the best one possible.</span>
                 </div>
             </div>
-            <div id="green-text">
-			    <span>Already Know What You Need?</span>
-                <br />
-		    </div>
-            <div id="white-text">
-			    <span>How We Can Help</span>
-                <br />
-		    </div>
 	    </div>
     );
 }

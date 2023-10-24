@@ -6,6 +6,7 @@ import './footer.css';
 export function Footer() {
     return (
         <div id="footer" className="footer">
+            {/* <hr className='footer-hr'/> */}
             <img src={logo} className='footer-image' alt="basic-lending-logo"/>
             <div className="left-align full-width">
                 <div className="footer-text">
@@ -20,7 +21,6 @@ export function Footer() {
                 <div className="footer-text">
                     <span>All rights reserved.</span>
                 </div>
-                <hr className='footer-hr'/>
                 <div className="footer-text">
                     <span>Term of Service Privacy Policy</span>
                 </div>

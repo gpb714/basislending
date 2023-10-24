@@ -8,7 +8,9 @@
 }
 
 #top-text{
-    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
     font-family: Montserrat-SemiBold;
     font-style: normal;
     font-weight: normal;
@@ -17,26 +19,9 @@
 }
 
 #bottom-text{
+    padding-right: 20px;
+    padding-left: 20px;
     padding-top: 10px;
-    text-align: left;
-    font-family: Montserrat-Medium;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    color: rgba(255, 255, 255, 1);
-}
-
-#green-text{
-    padding-top: 50px;
-    text-align: center;
-    font-family: Montserrat-SemiBold;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    color: rgba(110, 174, 67, 1);
-}
-
-#white-text {
     text-align: center;
     font-family: Montserrat-Medium;
     font-style: normal;

@@ -108,7 +108,7 @@ export function QuestionForm() {
                     </FormControl>
 
                     <div className="form-footer">
-                        <span>*don't worry, we will not sell your information and will never spam you.</span> <br />
+                        <span>*We will never sell your information or spam you.</span> <br />
                         <div className="send-text">Send</div>
                         <Button
                             mt={4}

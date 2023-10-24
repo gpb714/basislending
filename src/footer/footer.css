@@ -1,10 +1,13 @@
 .footer {
-    padding-top: 40px;
+    margin-top: 40px;
+    padding-top: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    border-top: 2px solid rgba(255, 255, 255, 0.161);
 }
+
 
 .full-width{
     width: 100%;
@@ -25,7 +28,7 @@
     font-family: Montserrat-SemiBold;
     font-style: normal;
     font-weight: normal;
-    font-size: 22.91707992553711px;
+    font-size: 17px;
     color: rgba(255, 255, 255, 1);
 }
 

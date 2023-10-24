@@ -24,10 +24,11 @@ h2 span {
 }
 
 .team-card{
+    padding: 20px;
     border-radius: 10px;;
     margin:20px;
     width: 361px;
-    height: 555px;
+    height: 697px;
     background-color: rgba(33, 33, 33, 1);
     display: flex;
     justify-content: center;
@@ -51,8 +52,9 @@ h2 span {
     color: rgba(255, 255, 255, 1);
 }
 
-.person-desc{
-    white-space: nowrap;
+.person-desc, .person-desc-quote{
+    padding-top: 20px;
+    white-space: wrap;
     text-align: center;
     font-family: Montserrat-Light;
     font-style: normal;
