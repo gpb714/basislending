@@ -8,7 +8,7 @@ export function Reviews() {
         <div className='padding review-section'>
 
             <div className = "reviews">
-                <div className='review-text'>Real reviews from real customers</div>
+                <div className='review-text'>Real Reviews from Real Customers</div>
             </div>
             
             <div id='ss-custom-reviews-widget-root'></div>  

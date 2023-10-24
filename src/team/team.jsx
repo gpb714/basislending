@@ -13,7 +13,8 @@ export function Team() {
                     <img src={tom} alt="Avatar" className='team-image'></img>
 
                     <div className='person-desc'>
-                        Over the past 17 years of helping people to finance their homes and manage their household debt, I have seen first-hand the value that having a trusted advisor can bring.  I work hard to be a reliable source of insight to my clients.  Whether you are renting a home and want to break into owning property, or manage several properties and need a big-picture analysis of your portfolio, I want to be your first call.  Please let me know how I can help.                    </div>
+                        Over a 17-year career helping people to finance their homes and manage their household debt, I've seen first-hand the value that having a trusted advisor can bring. With an in-depth understanding of financial and real-estate markets, I am able to provide valuable insights to my clients. Whether you are renting a home and want to break into owning property, or manage several properties and need a big-picture analysis of your portfolio, I want to be your first call. Please let me know how I can help.                
+                    </div>
                 </div>
                 <div className="team-card">
                     <div className='person-name'>Kyren Poe</div>
