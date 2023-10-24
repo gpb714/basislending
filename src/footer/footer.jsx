@@ -8,9 +8,9 @@ export function Footer() {
         <div id="footer" className="footer">
             {/* <hr className='footer-hr'/> */}
             <img src={logo} className='footer-image' alt="basic-lending-logo"/>
-            <div className="left-align full-width">
+            <div className="flex">
                 <div className="footer-text">
-                    <span>1-098-123-4567</span>
+                    <span>602-463-6903</span>
                 </div>
                 <div className="footer-text">
                     <span>info@basislending.com</span>

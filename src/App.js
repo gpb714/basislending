@@ -18,8 +18,8 @@ function App() {
         <BuyAccessLower />
         <QuestionForm />
       </div>
-        <Reviews />
         <Team />
+        <Reviews />
         <Ready />
         <Footer />
     </>

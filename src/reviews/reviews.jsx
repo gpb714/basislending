@@ -5,7 +5,7 @@ import './reviews.css';
 
 export function Reviews() {
     return (
-        <div className='padding '>
+        <div className='padding review-section'>
 
             <div className = "reviews">
                 <div className='review-text'>Real reviews from real customers</div>

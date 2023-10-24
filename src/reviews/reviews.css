@@ -4,7 +4,8 @@
 }
 
 .ant-layout > div {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(45, 45, 45);
+    padding-bottom: 25px;
 }
 
 #ss-custom-reviews-widget-root{
@@ -18,10 +19,15 @@
 
 .reviews{
     padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.review-section{
+    background-color: rgb(45, 45, 45);
 }
 
 .review-text {

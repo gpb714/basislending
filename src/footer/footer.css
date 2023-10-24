@@ -2,10 +2,17 @@
     margin-top: 40px;
     padding-top: 10px;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
     border-top: 2px solid rgba(255, 255, 255, 0.161);
+    padding-bottom: 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 
@@ -16,19 +23,19 @@
 .footer-image{
     width: 159px;
     height: 78px;
-    padding-left: 10%;
+    padding-left: 10px;
 }
 
 .footer-text{
-    padding-left: 10%;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     white-space: nowrap;
     text-align: left;
     font-family: Montserrat-SemiBold;
     font-style: normal;
     font-weight: normal;
-    font-size: 17px;
+    font-size: 14px;
     color: rgba(255, 255, 255, 1);
 }
 

@@ -55,7 +55,7 @@ export function QuestionForm() {
         // send email
         emailjs.sendForm('service_hs5kobd', 'template_qjsz1kg', form.current, '1UyyYt9zfJcO2RJyX')
             .then((response) => {
-                toast.success('Email Sent Successfully', {
+                toast.success('Email Sent Successfully. We will contact you shortly.', {
                     position: "top-center",
                     autoClose: 5000,
                     hideProgressBar: false,
@@ -67,7 +67,7 @@ export function QuestionForm() {
                 });
                 setIsSubmitting(false);
             }, (error) => {
-                toast.error('Failed to send', {
+                toast.error('Failed to send. Please try again or contact info@basislending.com for additional assistance.', {
                     position: "top-center",
                     autoClose: 5000,
                     hideProgressBar: false,
