@@ -1,6 +1,6 @@
 import React from 'react';
 
-import abe from './AbeClark.png';
+import abe from './AbeClark.jpg';
 import kyren from './Kyrenpoe1.jpg';
 import tom from './TomKarmo1.JPG';
 
