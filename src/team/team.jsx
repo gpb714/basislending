@@ -1,5 +1,6 @@
 import React from 'react';
 
+import abe from './AbeClark.png';
 import kyren from './Kyrenpoe1.jpg';
 import tom from './TomKarmo1.JPG';
 
@@ -24,6 +25,13 @@ export function Team() {
                     </div>
                     <div className='person-desc-quote'>
                         “The dictionary is the only place that success comes before work. Work is the key to success, and hard work can help you accomplish anything.” -Vince Lombardi
+                    </div>
+                </div>
+                <div className="team-card">
+                    <div className='person-name'>Abe Clark</div>
+                    <img src={abe} alt="Avatar" className='team-image'></img>
+                    <div className='person-desc'>
+                        I have been working in the mortgage industry since 2005 with various reputable lenders. I started out working with very large banks like Bank of America and JP Morgan Chase, but as time passed, I scaled down to smaller more customer-friendly mortgage companies.  As a Senior Loan Officer for Basis Lending, I have localized my services to just AZ and CA and have become an expert in those markets. I focus my attention on a handful of clients every month which allows me to deliver the tailored service my clients expect. Whether you are looking to purchase a home or complete a refinance, please do not hesitate to reach out to me with any questions. I am happy to help!
                     </div>
                 </div>
             </div>

@@ -17,8 +17,8 @@ function App() {
       <div className="gradient-background">
         <BuyAccessLower />
         <QuestionForm />
-        <Team />
       </div>
+        <Team />
         <Reviews />
         <Ready />
         <Footer />
