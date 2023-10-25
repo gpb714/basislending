@@ -5,11 +5,15 @@
 
 .ant-layout > div {
     background-color: rgb(45, 45, 45);
-    padding-bottom: 25px;
+    padding: 1px;
 }
 
 #ss-custom-reviews-widget-root{
     margin-bottom: 40px;
+}
+
+#review_widget_screen_width{
+    margin: 0px !important;
 }
 
 .ant-layout {
@@ -27,20 +31,19 @@
 }
 
 .review-section{
-    background-color: rgb(45, 45, 45);
+    background-color: rgba(26, 26, 26, 1);
 }
 
 .review-text {
     padding-right: 20px;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 5px;
     text-align: center;
     font-family: Montserrat-Medium;
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
     color: rgba(255, 255, 255, 1);
-    text-decoration: underline;
 }
 
 @media (max-width: 1000px) {

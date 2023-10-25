@@ -7,7 +7,10 @@ import tom from './TomKarmo1.JPG';
 import './team.css';
 export function Team() {
     return (
-        <>
+        <div className='team-section'>
+            <div className = "team-header">
+                <div className='team-header-text'>Meet our Team</div>
+            </div>
             <div id="team" className="team">
                 <div className="team-card">
                     <div className='person-name'>Tom Karmo</div>
@@ -35,6 +38,6 @@ export function Team() {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
