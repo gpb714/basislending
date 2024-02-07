@@ -2,6 +2,7 @@ import React from 'react';
 
 import logo from '../header/basislending.png';
 import './footer.css';
+import Pdf from './Privacy Notice.pdf';
 
 export function Footer() {
     return (
@@ -22,7 +23,7 @@ export function Footer() {
                     <span>All rights reserved.</span>
                 </div>
                 <div className="footer-text">
-                    <span>Term of Service Privacy Policy</span>
+                    <a href = {Pdf} target = "_blank" rel="noreferrer">Privacy Policy</a>
                 </div>
             </div>
 	    </div>

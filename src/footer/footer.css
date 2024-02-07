@@ -37,6 +37,10 @@
     font-weight: normal;
     font-size: 14px;
     color: rgba(255, 255, 255, 1);
+    
+    a{
+        color: white;
+    }
 }
 
 .footer-hr{

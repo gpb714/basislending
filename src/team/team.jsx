@@ -24,11 +24,7 @@ export function Team() {
                     <div className='person-name'>Kyren Poe</div>
                     <img src={kyren} alt="Avatar" className='team-image'></img>
                     <div className='person-desc'>
-                        I am extremely passionate about mortgage lending and taking care of my clients. I view every client as a partner throughout the home loan process. Open communication is essential for top-tier customer service and I will be available from the time you begin the loan process well past the loan closing. I will work extremely hard on your behalf to ensure a smooth transaction for all parties involved.
-                    </div>
-                    <div className='person-desc-quote'>
-                        “The dictionary is the only place that success comes before work. Work is the key to success, and hard work can help you accomplish anything.” -Vince Lombardi
-                    </div>
+                        As a Certified Mortgage Advisor and licensed Real Estate Agent, I'm your trusted guide in the ever-evolving landscape of real estate and mortgages. With a background in Finance, I approach your mortgage as a long-term investment, ensuring you're optimally positioned now and in the future. I am committed to being your strategic partner in shaping your financial future through thoughtful mortgage management. Together, let's transform your homeownership dreams into a secure and thriving reality. Your journey to financial success begins with a trusted guide – and I am here to lead you every step of the way.                    </div>
                 </div>
                 <div className="team-card">
                     <div className='person-name'>Abe Clark</div>
